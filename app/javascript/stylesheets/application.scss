@@ -1,8 +1,9 @@
 @import '~bootstrap/scss/bootstrap';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
 
 header, footer {
   width: 100%;
-  background-color: #9370db;
+  background-color: #4169e1;
 }
 
 body {
@@ -14,9 +15,11 @@ body {
 
 main {
   flex: 1;
-  background-color: #e6e6fa;
+  background-color: #f0f8ff;
 }
 
-footer {
-  height: 50px;
+.header-text, .footer-text {
+  text-align: center;
+  color: #fff;
+  font-family: 'Kaisei Opti', serif;
 }
