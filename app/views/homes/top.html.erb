@@ -1,2 +1,9 @@
-<h1>Homes#top</h1>
-<p>Find me in app/views/homes/top.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-10 col-lg-8 mt-5 mx-auto" style="display: flex; align-items: center;">
+      <h3>ようこそ！</h3>
+      <h5>占うボタンを押して本日の運勢を占ってみましょう！</h5>
+      <%= link_to "占う", omikuji_path, class: "btn btn-info" %>
+    </div>
+  </div>
+</div>
