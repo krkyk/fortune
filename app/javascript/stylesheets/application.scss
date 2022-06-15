@@ -38,3 +38,31 @@ main {
   background-color: #6a5acd;
   transform: translateY(-5px);
 }
+
+
+
+.btn-border {
+  width: 25%;
+  margin: 0 auto;
+  border: 2px solid #da70d6;
+  border-radius: 0;
+  background: #fff0f5;
+  -webkit-box-shadow: 4px 4px 0 #da70d6;
+  box-shadow: 4px 4px 0 #da70d6;
+}
+
+
+.btn-border:hover {
+  -webkit-box-shadow: -4px -4px 0 #da70d6;
+  box-shadow: -4px -4px 0 #da70d6;
+}
+
+.top-btn {
+  color: #6a5acd;
+  font-size: 20px;
+}
+
+.top-btn:hover {
+  color: #b22222;
+  text-decoration: none;
+}
