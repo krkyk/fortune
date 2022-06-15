@@ -23,3 +23,18 @@ main {
   color: #fff;
   font-family: 'Kaisei Opti', serif;
 }
+
+.top-box {
+  background-color: #fff;
+  border-radius: 10%;
+}
+.btn-uranau {
+  color: #fff;
+  background-color: #da70d6;
+}
+
+.btn-uranau:hover {
+  color: #fff;
+  background-color: #6a5acd;
+  transform: translateY(-5px);
+}
