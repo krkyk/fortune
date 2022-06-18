@@ -1,13 +1,9 @@
 <div class="container">
   <div class="row">
     <div class="col-12 col-md-8 col-lg-8 mt-5 mx-auto">
-      <h3><%= @result %></h3>
-      <h3><%= Omikuji.results %></h3>
-      <h3><%= Omikuji.methods.grep(/before/) %></h3>
-      <h4><%= @item %></h4>
-      <h4><%= Omikuji.items["ハンカチ"] %></h4>
-      <h4><%= @color %></h4>
-      <h4><%= Omikuji.colors[:color] %></h4>
+      <h1 class="text-center result-text"><%= @result %></h1>
+      <h4 class="text-center mt-5">ラッキーアイテム：<%= @item %></h4>
+      <h4 class="text-center mt-3">ラッキーカラー：<%= @color %></h4>
     </div>
   </div>
 </div>
