@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-flow: column;
   min-height: 100vh;
-  font-family: 'M PLUS 1p', sans-serif;
+  font-family: 'Kaisei Opti', serif;
 }
 
 main {
@@ -21,13 +21,21 @@ main {
 .header-text, .footer-text {
   text-align: center;
   color: #fff;
-  font-family: 'Kaisei Opti', serif;
 }
 
-.top-box {
+.header-text:hover {
+  color: #b22222;
+  text-decoration: none;
+}
+
+.main-box {
   background-color: #fff;
   border-radius: 10%;
+  box-shadow:
+    -10px 10px 25px rgba(218,112,214, 0.9),
+    10px -10px 25px rgba(65, 105, 225, 0.9)
 }
+
 .btn-uranau {
   color: #fff;
   background-color: #da70d6;
@@ -61,6 +69,7 @@ main {
   color: #6a5acd;
   font-family: 'Shippori Mincho', serif;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .top-btn:hover {
@@ -69,6 +78,5 @@ main {
 }
 
 .result-text {
-  font-family: 'Kaisei Opti', serif;
   font-weight: bold;
 }
