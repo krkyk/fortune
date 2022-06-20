@@ -2,9 +2,19 @@
   <div class="row">
     <div class="col-12 col-md-8 col-lg-8 mt-5 mx-auto">
       <div class="main-box mt-5 pb-5">
-        <h1 class="text-center result-text pt-5"><%= @result %></h1>
+        <h5 class="text-center py-5">本日の運勢</h5>
+        <h1 class="text-center result-text"><%= @result %></h1>
         <h4 class="text-center mt-5">ラッキーアイテム：<%= @item %></h4>
         <h4 class="text-center mt-3 pb-3">ラッキーカラー：<%= @color %></h4>
+      </div>
+    </div>
+    <div class="row my-5">
+      <div class="col-12">
+        <div class="ninja-img">
+          <%= image_tag"ninja.png" %>
+          <%= image_tag"ninja.png" %>
+          <%= image_tag"inu_ninja.png" %>
+        </div>
       </div>
     </div>
   </div>
