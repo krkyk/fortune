@@ -1,0 +1,2 @@
+class Aphorism < ApplicationRecord
+end

@@ -16,7 +16,9 @@
   </div>
   <div class="row my-5">
     <div class="col-12 col-md-4 col-lg-4 ninja-img">
-      <%= image_tag"ninja.png" %>
+      <%= link_to aphorism_path do %>
+        <%= image_tag"ninja.png" %>
+      <% end %>
     </div>
     <div class="col-12 col-md-4 col-lg-4 ninja-img">
       <%= image_tag"ninja.png" %>
@@ -25,4 +27,5 @@
       <%= image_tag"inu_ninja.png" %>
     </div>
   </div>
+  <p class="text-center">（<i class="fa-brands fa-padlet"></i> 忍者たちをクリックしてみてね <i class="fa-brands fa-padlet"></i>）</p>
 </div>

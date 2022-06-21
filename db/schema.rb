@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_06_13_084213) do
+ActiveRecord::Schema.define(version: 2022_06_21_121141) do
+
+  create_table "aphorisms", force: :cascade do |t|
+    t.string "text"
+    t.string "name"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "omikujis", force: :cascade do |t|
     t.integer "result"

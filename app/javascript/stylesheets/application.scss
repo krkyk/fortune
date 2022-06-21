@@ -85,3 +85,7 @@ main {
   display: flex;
   justify-content: space-around;
 }
+
+.ninja-img:hover {
+  transform: translateY(-10px);
+}

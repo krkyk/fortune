@@ -1,0 +1,2 @@
+module AphorismsHelper
+end
