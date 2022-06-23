@@ -93,7 +93,22 @@ main {
 .maxim-title {
   color: #191970;
 }
+
 .maxim-text {
   font-size: 2rem;
   font-weight: bold;
+}
+
+.animal-image {
+  width: 600px;
+  height: 500px;
+  border-radius: 10%;
+  object-fit: cover;
+}
+
+@media screen and (max-width:1023px) {
+  .animal-image {
+    width: 350px;
+    height: 300px;
+  }
 }

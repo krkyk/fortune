@@ -72,3 +72,38 @@ Aphorism.create!(
       name: 'チャールズ・スペンサー・チャップリン'}
   ]
 )
+
+Animal.create!(
+  [
+    {animal_name: 'ブタ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/buta.jpg"), filename: 'buta.jpg')},
+    {animal_name: 'ダチョウ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/datyou.jpg"), filename: 'datyou.jpg')},
+    {animal_name: 'ハムスター',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/hamu.jpg"), filename: 'hamu.jpg')},
+    {animal_name: 'ハリネズミ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/hari.jpg"), filename: 'hari.jpg')},
+    {animal_name: 'ヒヨコ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/hiyoko.jpg"), filename: 'hiyoko.jpg')},
+    {animal_name: 'イヌ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/inu.jpg"), filename: 'inu.jpg')},
+    {animal_name: 'イヌ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/inu2.jpg"), filename: 'inu2.jpg')},
+    {animal_name: 'カバ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/kaba.jpg"), filename: 'kaba.jpg')},
+    {animal_name: 'カピバラ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/kapibara.jpg"), filename: 'kapibara.jpg')},
+    {animal_name: 'キツネ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/kitsune.jpg"), filename: 'kitsune.jpg')},
+    {animal_name: 'コアラ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/koara.jpg"), filename: 'koara.jpg')},
+    {animal_name: 'クマ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/kuma.jpg"), filename: 'kuma.jpg')},
+    {animal_name: 'ネコ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/neko.jpg"), filename: 'neko.jpg')},
+    {animal_name: 'オウム',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/oumu.jpg"), filename: 'oumu.jpg')},
+    {animal_name: 'パンダ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/panda.jpg"), filename: 'panda.jpg')},
+    {animal_name: 'ペンギン',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/pengin.jpg"), filename: 'pengin.jpg')},
+    {animal_name: 'ライオン',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/raion.jpg"), filename: 'raion.jpg')},
+    {animal_name: 'ラッコ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/rakko.jpg"), filename: 'rakko.jpg')},
+    {animal_name: 'レッサーパンダ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/ressapanda.jpg"), filename: 'ressapanda.jpg')},
+    {animal_name: 'リス',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/risu.jpg"), filename: 'risu.jpg')},
+    {animal_name: 'サイ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/sai.jpg"), filename: 'sai.jpg')},
+    {animal_name: 'サル',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/saru.jpg"), filename: 'saru.jpg')},
+    {animal_name: 'シカ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/shika.jpg"), filename: 'shika.jpg')},
+    {animal_name: 'シマウマ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/shimauma.jpg"), filename: 'shimauma.jpg')},
+    {animal_name: 'シロクマ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/shirokuma.jpg"), filename: 'shirokuma.jpg')},
+    {animal_name: 'タカ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/taka.jpg"), filename: 'taka.jpg')},
+    {animal_name: 'タヌキ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/tanuki.jpg"), filename: 'tanuki.jpg')},
+    {animal_name: 'トラ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/tora.jpg"), filename: 'tora.jpg')},
+    {animal_name: 'ウサギ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/usagi.jpg"), filename: 'usagi.jpg')},
+    {animal_name: 'ゾウ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/zou.jpg"), filename: 'zou.jpg')}
+  ]
+)
