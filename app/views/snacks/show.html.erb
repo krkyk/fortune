@@ -2,14 +2,15 @@
   <div class="row">
     <div class="col-12 col-md-10 col-lg-8 mx-auto mt-5">
       <h3 class="maxim-title text-center">
-        <i class="fa-solid fa-paw"></i> 本日の動物 <i class="fa-solid fa-paw"></i>
+        <i class="fa-solid fa-paw"></i> 本日のおやつ <i class="fa-solid fa-paw"></i>
       </h3>
       <div class="text-center mt-4">
-        <%= image_tag @animal.get_animal_image(1000,1000),class: "today-image" %>
+        <%= image_tag @snack.get_snack_image(1000,1000),class: "today-image" %>
       </div>
       <h4 class="text-muted text-center my-5">
-        <%= @animal.animal_name %>
+        <%= @snack.snack_name %>
       </h4>
     </div>
   </div>
 </div>
+

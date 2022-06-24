@@ -99,7 +99,7 @@ main {
   font-weight: bold;
 }
 
-.animal-image {
+.today-image {
   width: 600px;
   height: 500px;
   border-radius: 10%;
@@ -107,7 +107,7 @@ main {
 }
 
 @media screen and (max-width:1023px) {
-  .animal-image {
+  .today-image {
     width: 350px;
     height: 300px;
   }

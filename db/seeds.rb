@@ -107,3 +107,29 @@ Animal.create!(
     {animal_name: 'ゾウ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/zou.jpg"), filename: 'zou.jpg')}
   ]
 )
+
+Snack.create!(
+  [
+    {snack_name: 'あめ',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/candy.jpg"), filename: 'candy.jpg')},
+    {snack_name: 'グミ',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/gumi.jpg"), filename: 'gumi.jpg')},
+    {snack_name: 'あめちゃん',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/candy2.jpg"), filename: 'candy2.jpg')},
+    {snack_name: 'チョコレート',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/choco.jpg"), filename: 'choco.jpg')},
+    {snack_name: 'チョコケーキ',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/choco-cake.jpg"), filename: 'choco-cake.jpg')},
+    {snack_name: 'アイスクリーム',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/ice-cream.jpg"), filename: 'ice-cream.jpg')},
+    {snack_name: 'プリン',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/purin.jpg"), filename: 'purin.jpg')},
+    {snack_name: 'ヨーグルトケーキ',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/yogurt.jpg"), filename: 'yogurt.jpg')},
+    {snack_name: '桜餅',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/sakura-mochi.jpg"), filename: 'sakura-moch.jpg')},
+    {snack_name: 'マカロン',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/macaroon.jpg"), filename: 'macaroon.jpg')},
+    {snack_name: 'カップケーキ',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/cap-cake.jpg"), filename: 'cap-cake.jpg')},
+    {snack_name: 'シュークリーム',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/cream-puff.jpg"), filename: 'cream-puff.jpg')},
+    {snack_name: 'ぜんざい',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/zenzai.jpg"), filename: 'zenzai.jpg')},
+    {snack_name: 'たこ焼き',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/takoyaki.jpg"), filename: 'takoyaki.jpg')},
+    {snack_name: 'うどん',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/udon.jpg"), filename: 'udon.jpg')},
+    {snack_name: 'クッキー',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/cookie.jpg"), filename: 'cookie.jpg')},
+    {snack_name: 'ケーキ',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/cake.jpg"), filename: 'cake.jpg')},
+    {snack_name: 'クレープ',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/crepe.jpg"), filename: 'crepe.jpg')},
+    {snack_name: 'ロールケーキ',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/roll-cake.jpg"), filename: 'roll-cake.jpg')},
+    {snack_name: 'パンケーキ',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/pancake.jpg"), filename: 'pancake.jpg')},
+    {snack_name: '無し',snack_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/no-snack.jpg"), filename: 'no-snack.jpg')}
+  ]
+)
