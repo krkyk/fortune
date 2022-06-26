@@ -76,7 +76,7 @@ Aphorism.create!(
 Animal.create!(
   [
     {animal_name: 'ブタ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/buta.jpg"), filename: 'buta.jpg')},
-    {animal_name: 'ダチョウ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/datyou.jpg"), filename: 'datyou.jpg')},
+    {animal_name: 'ダチョウ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/dacho.jpg"), filename: 'dacho.jpg')},
     {animal_name: 'ハムスター',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/hamu.jpg"), filename: 'hamu.jpg')},
     {animal_name: 'ハリネズミ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/hari.jpg"), filename: 'hari.jpg')},
     {animal_name: 'ヒヨコ',animal_image: ActiveStorage::Blob.create_and_upload!(io: File.open("#{Rails.root}/db/fixtures/hiyoko.jpg"), filename: 'hiyoko.jpg')},
