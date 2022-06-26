@@ -1,5 +1,5 @@
 class SnacksController < ApplicationController
   def show
-    @snack = Snack.order("RANDOM()").sample
+    @snack = Snack.all.shuffle.first
   end
 end

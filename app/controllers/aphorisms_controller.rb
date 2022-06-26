@@ -1,5 +1,5 @@
 class AphorismsController < ApplicationController
   def show
-    @maxim = Aphorism.order("RANDOM()").sample
+    @maxim = Aphorism.all.shuffle.first
   end
 end
