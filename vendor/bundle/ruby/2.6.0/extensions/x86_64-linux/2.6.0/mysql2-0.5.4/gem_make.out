@@ -1,5 +1,5 @@
 current directory: /home/ec2-user/environment/fortune/vendor/bundle/ruby/2.6.0/gems/mysql2-0.5.4/ext/mysql2
-/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220626-10654-rrs1wm.rb extconf.rb --with-ldflags\=-L/usr/local/opt/openssl/lib\ --with-cppflags\=-I/usr/local/opt/openssl/include
+/home/ec2-user/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20220627-19736-1s80t78.rb extconf.rb --with-ldflags\=-L/usr/local/opt/openssl/lib\ --with-cppflags\=-I/usr/local/opt/openssl/include
 checking for rb_absint_size()... *** extconf.rb failed ***
 Could not create Makefile due to some reason, probably lack of necessary
 libraries and/or headers.  Check the mkmf.log file for more details.  You may
